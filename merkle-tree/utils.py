@@ -12,7 +12,7 @@ def is_power_of_two(n):
     True
     >>> is_power_of_two(3)
     False
-    >>> if_power_of_two(16)
+    >>> is_power_of_two(16)
     True
     """
     return n != 0 and ((n & (n - 1)) == 0)
